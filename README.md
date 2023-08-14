@@ -1,3 +1,4 @@
 # django-rest-api
 
-# Model
+## Model
+* Defined two Django models: 
