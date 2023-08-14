@@ -1,4 +1,6 @@
 # django-rest-api
 
 ## Model
-* Defined two Django models: 
+1. Defined two Django models:
+* **Company Model:** This model represents a company with various fields:
+* **Employee Model:** This model represents an employee with various fields:
