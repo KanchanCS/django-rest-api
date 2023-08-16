@@ -26,3 +26,11 @@ Defined two Django models: `Company` and `Employee`. These models represent the 
     * `position`: A CharField with predefined choices for the employee's position (Manager, Software Developer, Project Leader).
     * `company`: A ForeignKey relationship to the Company model, indicating which company the employee belongs to.
     * The `__str__` method returns a string representation of the employee using their name.
+## Serializers
+   > provided code for creating `serializers` using the `Django Rest Framework` for the `Company` and `Employee` models. These serializers will help you convert complex data types, such as Django model instances, into native Python data types that can be easily rendered into JSON, XML, or other content types.
+  
+  > The `CompanySerializer` and `EmployeeSerializer` classes you've defined inherit from `serializers.HyperlinkedModelSerializer`. This type of serializer is used for models that have relationships, such as foreign keys, and will automatically generate hyperlinks to related resources.
+
+> In the `Meta` class of each serializer, you've specified the corresponding model and the fields to include in the `serialization`. In this case, you've used fields =` "__all__"` to include all fields from the models in the serialization.
+
+>  `CompanyViewSet` and `EmployeeViewSet` are viewsets that provide CRUD (Create, Retrieve, Update, Delete) operations for the `Company` and `Employee` models respectively. The `serializer_class` attribute specifies the serializer to be used for serializing and deserializing the data.
