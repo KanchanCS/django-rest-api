@@ -1,6 +1,6 @@
 # django-rest-api
 ## Getting Started
----
+
 #### 1. Create a virtual environment (optional but recommended):
 ```
 # On Windows
