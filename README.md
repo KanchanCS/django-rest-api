@@ -24,11 +24,11 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 #### 5. Access the application:
-Open your web browser and go to http://localhost:8000/ 
-Open your web browser and go to http://localhost:8000/home to access the json data.
-Open your web browser and go to http://localhost:8000/api/v1 .
-Open your web browser and go to http://localhost:8000/api/v1/copmpany to access the all company.
-Open your web browser and go to http://localhost:8000/api/v1/employees to access the all employees.
+- Open your web browser and go to http://localhost:8000
+- Open your web browser and go to http://localhost:8000/home to access the json data.
+- Open your web browser and go to http://localhost:8000/api/v1 .
+- Open your web browser and go to http://localhost:8000/api/v1/copmpany to access the all company.
+- Open your web browser and go to http://localhost:8000/api/v1/employees to access the all employees.
 
 ## Model
 Defined two Django models: `Company` and `Employee`. These models represent the structure of your database tables.
